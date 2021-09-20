@@ -17,7 +17,7 @@ Lesson 3, Tuesday, 2021-09-21
 
 ### From the console to VSCode
 
-So far we've seen how to run small bits of JavaScript in the developer tools and/or directly into the `console`.
+So far we've seen how to run small bits of JavaScript in the developer tools or directly into the `console`.
 
 When to use the console:
 
@@ -150,16 +150,16 @@ So far we've been working directly inside the JavaScript console in the browser.
 It meant that to run our code and see a result or a response from JavaScript we didn't need to do anything special.
 <!-- .element: class="fragment" -->
 
-Now that our code is inside a script we have to be explicit about showing stuff in the console.
+Now that our code is inside a script we have to be explicit about showing output in the console.
 <!-- .element: class="fragment" -->
 
 ---
 
 ### A note on variables
 
-We use the `let` keyword  only when we want to create (declare) a new variable. We use it only once for each variable.
+We use the `let` keyword only when we want to create (declare) a new variable. We use it only once for each variable.
 
-When we want to change the value contained in a variable we can't use the `let` keyword again. We simply need to write the variable name and change its value.
+When we want to change the value contained in a variable we can't use the `let` keyword again. We need to write the variable name followed by the assignment operator to change its value.
 
 ```js
 let budget = 10;
@@ -171,7 +171,7 @@ budget = budget - applePrice;
 
 ### Using console.log()
 
-We use `console.log()` to tell our program to print/write/output something in the console.
+We use `console.log()` to tell our program to output something to the console.
 
 Let's try it:
 
@@ -192,7 +192,7 @@ console.log(canGoToCinema);
 
 We can do better than that.
 
-We've seen that the `+` operator can be used on strings to combine them.
+We've seen that the `+` operator can be used on strings and number/string combination to concatenate them into a new string.
 
 Let's try to make our output a bit nicer:
 
@@ -211,14 +211,14 @@ console.log("In total, we would spend " + totalPrice + "€");
 ### Exercise
 
 - create a few variables with information about you (even fake ones)
-    - for example: name, age, city of birth, hobbies
+    - for example: name, age, favourite food, hobbies
 - use console.log() to write a short introduction
 
 Example output:
 
-```html
+```plaintext
 Hello, my name is Carlo.
-I come from Italy. 
+I like non-Hawaii pizza.
 I live in Berlin.
 I like books, comics and playing the guitar.
 ```
@@ -229,12 +229,12 @@ I like books, comics and playing the guitar.
 
 ```js
 let name = "Carlo";
-let placeBirth = "Italy";
+let favouriteFood = "non-Hawaii Pizza";
 let placeLive = "Berlin";
 let hobbiesText = "books, comics and playing guitar";
 
 console.log("Hello, my name is " + name + ".");
-console.log("I come from " + placeBirth + "."); 
+console.log("I come from " + favouriteFood + "."); 
 console.log("I live in " + placeLive + ".");
 console.log("I like " + hobbiesText + ".");
 ```
@@ -327,7 +327,7 @@ console.log("Total is " + total);
 
 ### Printing multiple values with console.log() 
 
-We can use `console.log()` to print multiple values at once, simply by separating them with a comma.
+We can use `console.log()` to print multiple values at once, by separating them with a comma.
 
 ```js
 let people = 9;
@@ -348,7 +348,7 @@ console.log("costs", costs, "drinks price", drinksPrice);
 
 In JavaScript (and in programming in general) comments are short texts to add extra information to our code.  
 
-Comments are meant only for who writes or reads the code, and are completely ignored by JavaScript.
+Comments are meant only for who writes or reads the code, and are ignored by JavaScript.
 
 ```js
 // Average: divide the sum of a set of numbers by the number of values
@@ -376,7 +376,8 @@ Two type of comments:
 let a = 5; // I can put comments mostly everywhere
 ```
 
-Use comments only to add important information that is not already clear from reading the code.
+- Use comments only to add important information that is not already clear from reading the code.
+- Good comments explain the **why** and not the **what**
 
 ---
 
@@ -400,7 +401,7 @@ Use comments only to add important information that is not already clear from re
 
 ### Example output for Shopping exercise
 
-```html
+```plaintext
 SHOPPING
 --------------
 Apple x2: 3€
