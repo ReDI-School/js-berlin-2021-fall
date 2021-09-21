@@ -70,6 +70,7 @@ The `typeof` operator in JavaScript outputs the data type of a value. Can you gu
 ```js
 typeof 42;
 ```
+
 ```js
 "number"
 ```
@@ -78,6 +79,7 @@ typeof 42;
 ```js
 typeof "hello";
 ```
+
 ```js
 "string"
 ```
@@ -86,6 +88,7 @@ typeof "hello";
 ```js
 typeof true;
 ```
+
 ```js
 "boolean"
 ```
@@ -98,6 +101,7 @@ typeof true;
 ```js
 typeof (1 + 1);
 ```
+
 ```js
 "number"
 ```
@@ -106,6 +110,7 @@ typeof (1 + 1);
 ```js
 typeof ("1" + "1");
 ```
+
 ```js
 "string"
 ```
@@ -114,6 +119,7 @@ typeof ("1" + "1");
 ```js
 typeof ("1 + 1");
 ```
+
 ```js
 "string"
 ```
@@ -126,6 +132,7 @@ typeof ("1 + 1");
 ```js
 typeof ("Harald" === "Abdullah");
 ```
+
 ```js
 "boolean"
 ```
@@ -134,6 +141,7 @@ typeof ("Harald" === "Abdullah");
 ```js
 typeof (4 < 2);
 ```
+
 ```js
 "boolean"
 ```
@@ -142,6 +150,7 @@ typeof (4 < 2);
 ```js
 typeof typeof 42;
 ```
+
 ```js
 "string"
 ```
