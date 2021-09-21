@@ -389,8 +389,8 @@ let a = 5; // I can put comments mostly everywhere
 
 ---
 
+<!-- .slide: style="font-size:80%" -->
 ### Exercise: Shopping
-
 1. create 3 variables to store the price for apples, bananas and kiwis.
 1. create other 3 variables to store how many of each fruit you're going to buy
 1. create a variable `totalPrice` to store the total of your shopping.
