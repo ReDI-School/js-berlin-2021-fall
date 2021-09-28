@@ -267,7 +267,7 @@ if (temperature > 20) {
 } else if (temperature > 5) {
   console.log("perfect.");
 } else {
-  console.log("it's a bit chilly.")
+  console.log("it's a bit chilly.");
 }
 ```
 
@@ -289,7 +289,7 @@ if (temperature > 30) {
 } else if (temperature > 5) {
   console.log("perfect.");
 } else {
-  console.log("it's a bit chilly.")
+  console.log("it's a bit chilly.");
 }
 ```
 
