@@ -2,7 +2,7 @@
 
 # Basic Frontend - Fall 2021
 
-Lesson 6, Thursday, 2021-10-05
+Lesson 6, Tuesday, 2021-10-05
 
 ---
 
@@ -94,7 +94,6 @@ if (condition3) {
 }
 ```
 
-<!-- .slide: id="functions" -->
 
 ---
 
@@ -184,6 +183,8 @@ In the ice cream exercise we just need to choose one flavor, the first one that 
 ---
 
 # Functions
+
+<!-- .slide: id="functions" -->
 
 ---
 
