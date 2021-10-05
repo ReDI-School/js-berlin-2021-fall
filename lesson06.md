@@ -285,7 +285,7 @@ The code works, but we are basically writing the same function 4 times and just 
 
 We normally want to avoid useless repetitions.
 
-Luckily functions have to options to accept something called `parameters` that let us do just that.
+Luckily, functions have the options to accept something called `parameters` that let us do just that.
 
 ---
 
