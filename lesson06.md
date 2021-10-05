@@ -76,7 +76,112 @@ if (condition1) {
 
 ---
 
+## Series of separate if statements
+
+If we put a series of `if` statements one after the other, they will be evaluated independently of one another.
+
+```js
+if (condition1) {
+    // do this
+}
+
+if (condition2) {
+    // do also this
+}
+
+if (condition3) {
+    // and do also this
+}
+```
+
 <!-- .slide: id="functions" -->
+
+---
+
+### Shopping exercise
+
+Let's live code the solution together.
+
+
+---
+
+### Shopping exercise solution
+
+```js
+let money = 32;
+let milkPrice = 2;
+let cheesePrice = 4;
+let breadPrice = 2;
+let butterPrice = 1;
+
+if (money >= milkPrice) {
+  money -= milkPrice;
+  console.log("bought milk");
+}
+
+if (money >= cheesePrice) {
+  money -= cheesePrice;
+  console.log("bought cheese");
+}
+
+if (money >= breadPrice) {
+  money -= breadPrice;
+  console.log("bought bread");
+  if (money >= butterPrice) {
+    money -= butterPrice;
+    console.log("bought butter");
+  }
+}
+
+console.log("Money left:", money);
+```
+
+---
+
+### Ice cream exercise 
+
+You have to go to the supermarket and buy ice-cream for your the party of your best friend.
+
+Her instructions are:
+
+Buy strawberry flavor. 
+
+If that's not available, buy mango flavor.
+
+If that's not available, buy the hazelnut one.  
+
+If none of those are available, buy chocolate flavor. 
+
+---
+
+### Ice cream exercise solution
+
+```js
+let isStrawberryAvailable = false;
+let isMangoAvailable = false;
+let isHazelnutAvailable = true;
+
+if (isStrawberryAvailable) {
+    console.log("buying strawberry ice cream");
+} else if (isMangoAvailable) {
+    console.log("buying mango ice cream");
+} else if (isHazelnutAvailable) {
+    console.log("buying hazelnut ice cream");
+} else {
+    console.log("buying chocolate ice cream");
+}
+```
+
+---
+
+### Recap
+
+In the first shopping exercise we need to buy as many things as possible, in a specific order, as long as we have enough money.
+
+In the ice cream exercise we just need to choose one flavor, the first one that is available in an order of preference.
+
+
+---
 
 # Functions
 
