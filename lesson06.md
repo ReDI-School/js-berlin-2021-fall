@@ -94,7 +94,6 @@ if (condition3) {
 }
 ```
 
-
 ---
 
 ### Shopping exercise
