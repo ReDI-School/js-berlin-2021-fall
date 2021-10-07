@@ -379,5 +379,5 @@ John, 18, English &#8594; **"Hello! my name is John, I am 18 years old and I spe
 
 ### Extra exercises
 
-Try to as many exercises as possible from the ones listed [here](exercises/2021-10-05)
+Try to as many exercises as possible from the ones listed [here](https://github.com/ReDI-School/js-berlin-2021-fall/tree/main/exercises/2021-10-07)
 
