@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My shop</h1>
+
+    Please choose the amount of products you want to buy:
+
+    <div>
+        Socks: <input type="number" id="socks" min="0" value="0" oninput="amountChanged()">
+    </div>
+
+    <div>
+        Hats: <input type="number" id="hats" min="0" value="0" oninput="amountChanged()">
+    </div>
+
+    <div id="result">Total: 0 EUR</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
