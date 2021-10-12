@@ -97,6 +97,8 @@ The function gets the guess and the secret number as parameter and needs to retu
 
 Finish the code [here](https://github.com/ReDI-School/js-berlin-2021-fall/tree/main/exercises/2021-10-12/number_guessing)!
 
+<!-- .slide: style="font-size:50%" -->
+
 ---
 
 ### Task 2 - Bonus
