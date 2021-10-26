@@ -232,3 +232,4 @@ function sayHello() {
 
 
 - [Color scheme selector exercise](https://github.com/ReDI-School/js-berlin-2021-fall/tree/main/exercises/2021-10-26/color-scheme-selector)
+- Bonus: add a color scheme of your choice to the previous exercise
