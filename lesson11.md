@@ -37,7 +37,7 @@ How can we check the type of a variable in JavaScript?
 What's the output?
 
 ```js
-typeof ''; // ?
+typeof '';
 ```
 
 ---
@@ -47,7 +47,7 @@ typeof ''; // ?
 What's the output?
 
 ```js
-typeof {}; // 
+typeof {};
 ```
 
 ---
@@ -212,7 +212,7 @@ Have we seen examples of nested objects anywhere, so far?
 
 We can use the `input` element in HTML for reading values typed by a user and use those values in JavaScript.
 
-``html
+```html
 <input id="name" type="text">
 <button onclick="sayHello();">Submit</button>
 ```
