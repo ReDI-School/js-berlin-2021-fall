@@ -110,3 +110,14 @@ Using the previous exercise, when the user clicks the button without entering a 
 ### Exercise 2
 
 Create an input field and a button element. When the user enters a color name in the input field and clicks the button, the background color of the page should change to that color.
+
+---
+
+### Exercise 3
+
+* Create an input field to represent name and an input field to represent age.
+* Create a button to "save" the contact details.
+* Create a div that will display the last saved contact details in an easy to read format: "Owen, age 30"
+* Create a "Load" button that when clicked, loads the last saved contact details back into the form inputs
+
+Bonus: When the contact is saved, clear the input fields to make it easy for the user to enter a different value.
