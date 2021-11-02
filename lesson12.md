@@ -53,7 +53,6 @@ carlo.address.street = "Otherstraße";
 let nameElement = document.getElementById("name");
 
 function sayHello() {
-    
     let inputValue = nameElement.value;
     console.log("Hello," inputValue);
 }
