@@ -131,7 +131,7 @@ document.body.appendChild(myDiv);          // 3
 
 1. Create a new HTML element using `document.createElement`. Pass the type of the element (`div`, `button`, `img`, ...) as string.
 2. Set all the properties you like, e.g. `textContent`, `onclick`, ...
-3. Tell the browser in which parent element you want the new element to appear. Here, we append it to the document's `<body>`.
+3. appendChild add an element to the end of the list of children of a specific parent element. Here, we append it to the document's `<body>`.
 
 ---
 
