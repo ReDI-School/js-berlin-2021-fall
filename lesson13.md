@@ -26,7 +26,7 @@ What JavaScript code do I need to write to change the input element to:
 
 ```html
 <input id="myInput" type="number">
-
+```
 ---
 
 HTML:
