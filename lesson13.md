@@ -27,6 +27,7 @@ What JavaScript code do I need to write to change the input element to:
 ```html
 <input id="myInput" type="number">
 ```
+
 ---
 
 HTML:
@@ -96,6 +97,9 @@ let myFunction = function() { console.log("this function was called"); };
 myFunction(); // calls the function above
 ```
 
+The function above is also called an "anonymous" function, because the function
+itself has no name.
+
 ---
 
 HTML
@@ -124,6 +128,7 @@ So far, we can get elements from HTML and manipulate them.
 ### document.createElement
 
 ```js
+// <div>hello</div> in JavaScript:
 let myDiv = document.createElement("div"); // 1
 myDiv.textContent = "hello";               // 2
 document.body.appendChild(myDiv);          // 3
