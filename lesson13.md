@@ -121,7 +121,7 @@ So far, we can get elements from HTML and manipulate them.
 
 ---
 
-### Document.CreateElement
+### document.createElement
 
 ```js
 let myDiv = document.createElement("div"); // 1
