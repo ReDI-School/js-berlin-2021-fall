@@ -34,7 +34,7 @@ Let's say I want to bake a cake:
 
 <div style="display: flex;">
 
-![scale](images/lesson-16-scale.webp) <!-- .element: style="width: 400px"-->
+![scale](images/lesson-14-scale.webp) <!-- .element: style="width: 400px"-->
 
 <div>
 Cake recipe:<br>
