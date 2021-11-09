@@ -125,8 +125,7 @@ while (bitesOfChocolate < 10) {
 }
 ```
 
-As long as we have had less than 10 bites of chocolate, we will have one more and console.log that we're still hungry.
-
+As long as we have had less than 10 bites of chocolate, we will have one more bite and we will still be hungry.
 ---
 
 ### While loop
