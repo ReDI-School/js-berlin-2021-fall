@@ -230,7 +230,7 @@ This is a real interview question for a Junior JavaScript developer:
 
 ### Exercise 2 
 
-* Draw a pyramid to console:
+Draw a pyramid to console:
 
 ```plaintext
 *
