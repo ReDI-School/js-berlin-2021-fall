@@ -211,7 +211,7 @@ Common programming usage: How can you tell if a number is even or odd?
 
 ---
 
-### Exercise: For loop and Remainder operator
+### Exercise 1: For loop and Remainder operator
 
 Print all even numbers between 0 and 100
 
@@ -228,7 +228,7 @@ This is a real interview question for a Junior JavaScript developer:
 
 ---
 
-### Homework
+### Exercise 2 
 
 * Draw a pyramid to console:
 
@@ -239,3 +239,9 @@ This is a real interview question for a Junior JavaScript developer:
 ****
 *****
 ```
+
+---
+
+### Exercise 3
+
+Find more exercises [here](https://github.com/ReDI-School/js-berlin-2021-fall/tree/main/exercises/2021-11-16).
