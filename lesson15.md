@@ -232,7 +232,7 @@ This is a real interview question for a Junior JavaScript developer:
 
 * Draw a pyramid to console:
 
-```
+```plaintext
 *
 **
 ***
@@ -245,3 +245,5 @@ This is a real interview question for a Junior JavaScript developer:
 ### Exercise 3
 
 Find more exercises [here](https://github.com/ReDI-School/js-berlin-2021-fall/tree/main/exercises/2021-11-16).
+
+Instructions for each exercise are inside each JavaScript file.
