@@ -308,12 +308,12 @@ console.log(friends[3]); // David
 
 ### Tasks
 
-Create a function that takes an array and outputs the following:
+Create a function each that takes an array and outputs the following:
 
 * Output the last element of the array
 * Output the sum of all the numbers in the array
-* Output the largest number of the array
 * Output the average (mean) of all numbers (sum of all numbers divided by amount of numbers)
+* BONUS: Output the largest number of the array
 
 Create an array containing a few numbers, ex `[3, 2, 9, 5, 6]` and test your code:
 
@@ -383,6 +383,25 @@ console.log("Sum: " + sum(numbers));
 
 ### Solutions
 
+Output the average (mean) of all numbers (sum of all numbers divided by amount of numbers)
+
+```js
+
+let numbers = [3, 2, 9, 5, 6];
+function average(numbers) {
+    let sumOfNumbers = sum(numbers); // sum() is the function we created before
+    let average = sumOfNumbers / numbers.length;
+    return average;
+}
+
+console.log("Average: " + average(numbers));
+
+```
+
+---
+
+### Solutions
+
 Output the largest number of the array
 
 ```js
@@ -399,25 +418,6 @@ function largestNumber(numbers) {
 }
 
 console.log("Largest number: " + largestNumber(numbers));
-```
-
----
-
-### Solutions
-
-Output the average (mean) of all numbers (sum of all numbers divided by amount of numbers)
-
-```js
-
-let numbers = [3, 2, 9, 5, 6];
-function average(numbers) {
-    let sum = sum(numbers); // sum() is the function we created before
-    let average = sum / numbers.length;
-    return average;
-}
-
-console.log("Average: " + average(numbers));
-
 ```
 
 ---
